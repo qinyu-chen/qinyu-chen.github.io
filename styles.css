@@ -96,3 +96,24 @@ a:hover {
     text-decoration: underline;
 }
 
+.cv-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cv-content h1, .cv-content h2 {
+    color: #333;
+}
+
+.cv-content ul {
+    padding-left: 20px;
+}
+
+.cv-content li {
+    margin-bottom: 10px;
+}
+
+.cv-content section {
+    margin-bottom: 30px;
+}
