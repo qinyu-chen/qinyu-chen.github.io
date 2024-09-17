@@ -95,3 +95,91 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+
+/* 保留之前的样式 */
+
+/* CV 页面样式 */
+.table-of-contents {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 10px;
+}
+
+.table-of-contents a {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.date-badge {
+    background-color: #ff69b4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.institution {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.institution::before {
+    content: "🏛️";
+    margin-right: 5px;
+}
+
+/* 子页面特定样式 */
+.subpage header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.subpage .main-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.subpage nav {
+    display: flex;
+    gap: 20px;
+}
+
+.subpage nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.subpage nav a:nth-child(2) {
+    color: #ff69b4; /* CV 链接为粉色 */
+}
