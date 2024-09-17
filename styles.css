@@ -10,8 +10,16 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
+}
+
+.main-title {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: normal;
+    color: #333;
 }
 
 nav {
@@ -22,11 +30,11 @@ nav {
 nav a {
     text-decoration: none;
     color: #333;
-    font-size: 14px;
+    font-size: 18px; /* 增大导航字体 */
 }
 
 nav a:first-child {
-    color: #ff69b4; /* 保持 About 为粉色 */
+    color: #ff69b4; /* About 为粉色 */
 }
 
 .main-content {
@@ -36,17 +44,11 @@ nav a:first-child {
 }
 
 .left-column {
-    flex: 2;
+    flex: 3;
 }
 
 .right-column {
     flex: 1;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: normal;
 }
 
 h2 {
@@ -65,15 +67,10 @@ ul {
     margin-bottom: 15px;
 }
 
-img {
+.right-column img {
     max-width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
-}
-
-.email, .address {
-    font-size: 14px;
-    margin-bottom: 10px;
 }
 
 .news-item {
@@ -84,13 +81,17 @@ img {
     font-weight: bold;
 }
 
-/* 子页面特定样式 */
-.subpage header {
-    justify-content: space-between;
-    align-items: center;
+/* 研究兴趣部分 */
+.research-interests ul {
+    margin-top: 0;
 }
 
-.subpage .main-title {
-    font-size: 1.5em;
-    margin: 0;
+/* 链接样式 */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
