@@ -27,23 +27,31 @@
         nav a:first-child {
             color: #ff6347; /* 橘红色 */
         }
+        .content {
+            display: flex;
+            gap: 40px;
+        }
+        .main {
+            flex: 2;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
         h1, h2 {
-            color: #333;
+            margin-top: 0;
         }
-        .position {
-            margin-bottom: 40px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
+        ul {
+            padding-left: 20px;
         }
-        .apply-link {
-            color: #0066cc;
-            text-decoration: none;
+        .news {
+            margin-top: 40px;
         }
-        .apply-link:hover {
-            text-decoration: underline;
-        }
-        .deadline {
-            font-weight: bold;
+        .news-item {
+            margin-bottom: 20px;
         }
     </style>
 </head>
