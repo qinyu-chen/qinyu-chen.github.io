@@ -96,15 +96,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
-/* 保留之前的样式 */
-
-/* CV 页面样式 */
-.cv-content {
-    margin-top: 40px;
-}
-
 .table-of-contents {
     list-style-type: none;
     padding-left: 0;
@@ -121,20 +112,6 @@ a:hover {
     padding: 5px 10px;
     border-radius: 15px;
     text-decoration: none;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-dl {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px;
-}
-
-dt {
-    font-weight: bold;
 }
 
 .experience-item {
