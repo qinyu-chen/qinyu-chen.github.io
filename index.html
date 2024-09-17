@@ -1,12 +1,120 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:first-child {
+            color: #ff69b4;
+        }
+        .content {
+            display: flex;
+            gap: 40px;
+        }
+        .main {
+            flex: 2;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .news {
+            margin-top: 40px;
+        }
+        .news-item {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>欢迎来到我的个人主页</h1>
-    <p>这是我的第一个 GitHub Pages 网站。</p>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#cv">CV</a>
+            <a href="#publications">Publications</a>
+            <a href="#patents">Patents</a>
+            <a href="#projects">Projects</a>
+            <a href="#tutorials">Tutorials</a>
+            <a href="#activities">Activities</a>
+            <a href="#supervision">Supervision</a>
+            <a href="#" id="theme-toggle">🌙</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="main">
+            <p>I'm now an Associate Professor at [Your University]. I am interested in [Your Research Field], with an emphasis on [Your Specific Research Focus]. I aim to [Your Research Goal].</p>
+            
+            <p>I got my PhD from [University Name] in [Year], supervised by [Supervisor Name]. Prior to that, I received my B.E and M.E from [University Name] in [Year] and [Year] respectively.</p>
+
+            <h2>Research Interests</h2>
+            <h3>Information Retrieval:</h3>
+            <ul>
+                <li>Recommender systems</li>
+                <li>Conversational IR</li>
+                <li>Personalized search and QA</li>
+                <li>Legal IR systems and applications</li>
+                <li>Interactive IR applications</li>
+            </ul>
+
+            <h3>Natural Language Processing:</h3>
+            <ul>
+                <li>Dialogue systems</li>
+                <li>Summarization and tagging</li>
+                <li>Knowledge representation and distillation</li>
+            </ul>
+
+            <div class="news">
+                <h2>News</h2>
+                <div class="news-item">
+                    <strong>Oct, 2023</strong>
+                    <p>2 papers have been accepted at WSDM 2024!</p>
+                </div>
+                <div class="news-item">
+                    <strong>Oct, 2023</strong>
+                    <p>8 papers have been accepted at EMNLP 2023!</p>
+                </div>
+                <div class="news-item">
+                    <strong>Jan, 2023</strong>
+                    <p>I serve as an associate editor of Information Processing & Management.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <img src="your-photo-url" alt="Your Name">
+            <p>your.email@example.com</p>
+            <p>Your Office Address, City, Country</p>
+        </div>
+    </div>
 </body>
 </html>
