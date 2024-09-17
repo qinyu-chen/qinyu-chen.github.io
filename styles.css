@@ -101,6 +101,10 @@ a:hover {
 /* 保留之前的样式 */
 
 /* CV 页面样式 */
+.cv-content {
+    margin-top: 40px;
+}
+
 .table-of-contents {
     list-style-type: none;
     padding-left: 0;
