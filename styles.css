@@ -156,30 +156,3 @@ dt {
     content: "🏛️";
     margin-right: 5px;
 }
-
-/* 子页面特定样式 */
-.subpage header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-}
-
-.subpage .main-title {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-.subpage nav {
-    display: flex;
-    gap: 20px;
-}
-
-.subpage nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-.subpage nav a:nth-child(2) {
-    color: #ff69b4; /* CV 链接为粉色 */
-}
